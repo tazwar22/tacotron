@@ -15,6 +15,7 @@ def preprocess_blizzard(args):
 
 
 def preprocess_ljspeech(args):
+  #LJSpeech
   in_dir = os.path.join(args.base_dir, 'LJSpeech-1.1')
   out_dir = os.path.join(args.base_dir, args.output)
   os.makedirs(out_dir, exist_ok=True)
