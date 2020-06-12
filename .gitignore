@@ -5,3 +5,5 @@ __pycache__/
 run*.sh
 tacos.code-workspace
 LJSpeech-1.1/
+training/
+taco_0.yml
